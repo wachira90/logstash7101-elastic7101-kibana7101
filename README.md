@@ -3,33 +3,45 @@ logstash7101-elastic7101-kibana7101
 
 # logstash-7.10.1-elastic-7.10.1-kibana-7.10.1
 
-# run 
+## run 
 
+````
 docker-compose up -d
+````
 
-# stop 
+## stop
 
+````
 docker-compose stop 
+````
 
-# restart
+## restart
 
+````
 docker-compose restart
+````
 
-# shutdown
+## shutdown
 
+````
 docker-compose down
+````
 
-# URL kibana
+## URL kibana
 
+````
 http://localhost:5601
+````
 
-# URL elastic
+## URL elastic
 
+````
 http://localhost:9200
+````
 
-
-# logstash data in port
-
+## logstash data in port
+````
 port = 5144
+````
 
-# modby => wachira90@yahoo.com
+### modby => wachira90@yahoo.com
