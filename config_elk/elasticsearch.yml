@@ -1,0 +1,11 @@
+cluster.name: "docker-cluster"
+network.host: 0.0.0.0
+http.port: 9200
+discovery.type: single-node
+xpack.license.self_generated.type: basic
+xpack.security.enabled: true 
+
+#http.cors.enabled: true
+#http.cors.allow-origin: "http://192.168.4.253"
+#xpack.security.enabled: true
+
